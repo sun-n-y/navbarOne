@@ -148,6 +148,28 @@ p {
   background: var(--clr-primary-8);
 }
 
+/* section add to globals */
+.section {
+  padding: 1rem;
+}
+/* title add to globals */
+.section-title {
+  max-width: 1170px;
+  text-align: center;
+}
+.section-title {
+  opacity: 0.5;
+  margin-bottom: 0;
+  border: 2px solid var(--clr-grey-1);
+}
+
+/* section center add to globals */
+
+.section-center {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*
 =============== 
 Navbar
@@ -195,9 +217,6 @@ Hero
 About
 ===============
 */
-/* section add to globals */
-/* title add to globals */
-/* section center add to globals */
 
 /*
 =============== 
