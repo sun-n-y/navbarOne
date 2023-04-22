@@ -158,6 +158,31 @@ Navbar
 Hero
 ===============
 */
+
+.hero {
+  height: 100vh;
+  background: var(--clr-grey-3);
+}
+
+.hero-content {
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content h1 {
+  color: var(--clr-white);
+}
+
+.hero-content p {
+  max-width: 40rem;
+  text-align: center;
+  color: var(--clr-white);
+  letter-spacing: var(--spacing);
+}
+
 /*
 =============== 
 About
