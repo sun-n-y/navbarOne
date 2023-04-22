@@ -172,6 +172,7 @@ Hero
   justify-content: center;
   align-items: center;
 }
+
 .hero-content h1 {
   color: var(--clr-white);
 }
@@ -181,6 +182,12 @@ Hero
   text-align: center;
   color: var(--clr-white);
   letter-spacing: var(--spacing);
+}
+
+@media screen and (min-width: 780px) {
+  .hero {
+    background: url(../images/bcg-img.jpg) center/cover no-repeat;
+  }
 }
 
 /*
