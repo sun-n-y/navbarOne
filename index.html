@@ -21,21 +21,27 @@
   <body>
     <!-- header  -->
     <section class="hero" id="zero">
-      <nav class="section-center">
-        <nav class="navbar">
+      <nav class="navbar">
+        <nav class="section-center nav-center">
           <div class="nav-header">
             <img src="./images/logo.svg" class="nav-logo" alt="" />
-            <i class="fa-solid fa-burger"></i>
+            <button type="submit" class="nav-toggle" id="nav-toggle">
+              <i class="fa-solid fa-burger"></i>
+            </button>
           </div>
           <!-- nav links -->
-          <ul>
-            <li><a href="#one">one</a></li>
-            <li><a href="#two">two</a></li>
-            <li><a href="#three">three</a></li>
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#one" class="nav-link">one</a></li>
+            <li><a href="#two" class="nav-link">two</a></li>
+            <li><a href="#three" class="nav-link">three</a></li>
           </ul>
           <!-- end of nav links -->
           <!-- nav icon -->
-          <i class="fa-solid fa-heart"></i>
+          <div class="nav-icons">
+            <i class="fa-solid fa-heart nav-icon"></i>
+            <i class="fa-solid fa-cloud nav-icon"></i>
+          </div>
+
           <!-- end of nav icon -->
         </nav>
       </nav>
