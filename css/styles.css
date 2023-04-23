@@ -266,8 +266,10 @@ Navbar
   .nav-icons {
     display: flex;
     font-size: 1.5rem;
-    margin-right: 0.7rem;
     color: var(--clr-primary-5);
+  }
+  .nav-icon {
+    margin-right: 0.7rem;
   }
   .nav-icon:hover {
     color: var(--clr-primary-2);
