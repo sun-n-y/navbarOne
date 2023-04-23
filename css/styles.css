@@ -180,6 +180,60 @@ Navbar
   background-color: var(--clr-white);
 }
 
+.nav-icons {
+  display: none;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.nav-toggle {
+  font-size: 1.5rem;
+  border: none;
+  background: transparent;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  transform: scale(1.2);
+}
+
+.nav-logo {
+  height: 3rem;
+}
+
+.nav-link {
+  display: block;
+  text-transform: capitalize;
+  color: var(--clr-primary-5);
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.nav-link:hover {
+  padding-left: 2.5rem;
+  background: var(--clr-grey-2);
+}
+
+/* 272px */
+
+/* .nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.show-links {
+  height: 272px;
+} */
+
 /*
 =============== 
 Hero
