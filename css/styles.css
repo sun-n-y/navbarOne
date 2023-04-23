@@ -224,7 +224,7 @@ Navbar
 
 /* 272px */
 
-/* .nav-links {
+.nav-links {
   height: 0;
   overflow: hidden;
   transition: var(--transition);
@@ -232,7 +232,7 @@ Navbar
 
 .show-links {
   height: 272px;
-} */
+}
 
 /*
 =============== 
