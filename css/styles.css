@@ -70,14 +70,11 @@ ul {
 a {
   text-decoration: none;
 }
-img {
+
+img:not(.nav-logo) {
   width: 100%;
   display: block;
 }
-/* img:not(.nav-logo) {
-  width: 100%;
-  display: block;
-} */
 
 h1,
 h2,
@@ -243,7 +240,9 @@ Section 2
 Section 3
 ===============
 */
-
+#three {
+  text-align: center;
+}
 /*
 =============== 
 Contact
