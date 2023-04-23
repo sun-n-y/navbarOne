@@ -233,7 +233,46 @@ Navbar
 .show-links {
   height: 272px;
 }
+@media screen and (min-width: 992px) {
+  .nav-toggle {
+    display: none;
+  }
 
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .nav-header {
+    padding: 0;
+    margin-left: 0.7rem;
+  }
+
+  .nav-links {
+    display: flex;
+    height: auto;
+  }
+  .nav-link {
+    padding: 0;
+    margin-right: 0.7rem;
+  }
+  .nav-link:hover {
+    padding: 0;
+    background: none;
+  }
+
+  .nav-icons {
+    display: flex;
+    font-size: 1.5rem;
+    margin-right: 0.7rem;
+    color: var(--clr-primary-5);
+  }
+  .nav-icon:hover {
+    color: var(--clr-primary-2);
+  }
+}
 /*
 =============== 
 Hero
